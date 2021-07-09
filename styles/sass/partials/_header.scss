@@ -1,0 +1,64 @@
+header{
+    height:100vh;
+}
+h1{
+    text-align:center;
+    padding-top:50px;
+    padding-bottom:50px;
+}
+.topNav{
+    ul{
+        display:flex;
+        justify-content: space-around;
+        margin-left:20%;
+        margin-right:20%;
+        position:relative;
+        &:before{
+            content:"";
+            width:100%;
+            height:3px;
+            background-color:white;
+            opacity: 50%;
+            position:absolute;
+            top:-15px;
+        }
+        &:after{
+            content:"";
+            width:90%;
+            height:3px;
+            background-color:white;
+            opacity: 50%;
+            position:absolute;
+            bottom:-15px;
+        }
+    }
+    a{
+        color:white;
+        font-family: $titleFont;
+        font-size:20px;
+        letter-spacing:1px;
+        line-height:29px;
+        text-transform: uppercase;
+        padding-left:20px;
+        padding-right:20px;
+        &:hover{
+            color:$primary;
+        }
+    }
+}
+.personal-portrait{
+    border-radius:50%;
+    width:35%;
+    display:block;
+    object-fit:contain;
+    margin:0 auto;
+    padding-top:50px;
+    padding-bottom:50px;
+}
+h2{
+    text-align: center;
+    padding-bottom:15px;
+    span{
+        color:$primary;
+    }
+}

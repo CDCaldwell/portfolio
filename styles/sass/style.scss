@@ -1,0 +1,14 @@
+$bodyFont: 'Open Sans', sans-serif;
+$titleFont: 'Sanchez', serif;
+$orangeGradient: linear-gradient(90deg, rgba(180,175,174,1) 0%, rgba(233,101,69,1) 35%, rgba(131,43,19,1) 100%);
+$blackGradient:linear-gradient(228deg, rgba(61,61,61,1) 0%, rgba(14,14,14,1) 63%);
+$primary: #e96545;
+$secondary: #f3b1a1;
+
+@import './partials/setup';
+@import './partials/general-styles'; 
+@import './partials/header';
+@import './partials/main';
+@import './partials/footer';
+@import './partials/media-queries';
+

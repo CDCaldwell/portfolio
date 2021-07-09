@@ -1,0 +1,35 @@
+body{
+    background: $blackGradient;
+}
+.wrapper{
+    width:90%;
+    max-width:1250px;
+    margin: 0 auto;
+}
+h1{
+    font-family:$titleFont;
+    color:white;
+    text-transform: uppercase;
+    font-size:60px;
+    line-height:75px;
+}
+h2{
+    color:white;
+    font-family: $titleFont;
+    font-size:30px;
+}
+h3{
+    color:black;
+    font-family: $titleFont;
+    font-size:30px;
+}
+
+p{
+    font-family: $bodyFont;
+    font-size:20px;
+    line-height:28px;
+}
+
+a{
+    text-decoration: none;
+}

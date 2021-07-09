@@ -1,0 +1,43 @@
+footer{
+    background-color: $primary;
+    a{
+        color:white;
+        &:hover{
+            color:darken(white, 15);
+        }
+    }
+}
+.contact-address{
+    padding-top:15px;
+}
+.social-icons{
+    i{
+        font-size:30px;
+        padding:5px;
+    }
+}
+address{
+    font-style:normal;
+    font-family:$bodyFont;
+    color:white;
+}
+.copyright{
+    position:relative;
+    padding-top:20px;
+    padding-bottom:5px;
+    p{
+        text-align:center;
+        font-family:$bodyFont;
+        color:white;
+    }
+    &:before{
+        content:"";
+        width:60%;
+        margin:0 20%;
+        height:3px;
+        background-color:white;
+        opacity: 50%;
+        position:absolute;
+        top:10px;
+    }
+}
